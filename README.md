@@ -22,7 +22,24 @@ Enterprise-grade authentication solution for Python applications with secure API
 - **IP-based rate limiting**
 - **Automated key rotation**
 
-## 📥 Installation
+- 
 
-```bash
-pip install requests pycryptodome cryptography python-dotenv
+📥 Installation
+Install required dependencies:
+
+-pip install requests pycryptodome cryptography python-dotenv
+
+## ⚙️ Configuration
+
+Create `config.json` with these required fields:
+
+```json
+{
+    "name": "YourApplicationName", 
+    "ownerid": "YourOwnerID",
+    "secret": "YourEncryptionSecret",
+    "version": "1.0"
+}
+
+
+
